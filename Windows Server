@@ -1,0 +1,5 @@
+To rename a computer:
+netdom renamecomputer %ComputerName% /NewName: <NewComputerName>
+
+To restart a computer:
+netdom join %ComputerName% /domain:<DomainName> /userd:<UserName> /passwordd:*
