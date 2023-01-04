@@ -1,5 +1,5 @@
 To rename a computer:
-netdom renamecomputer %ComputerName% /NewName: <NewComputerName>
+netdom renamecomputer %ComputerName% /NewName:<NewComputerName>
 shutdown /r
 
 To join a computer to domain:
