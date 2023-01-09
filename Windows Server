@@ -19,7 +19,8 @@ redirusr <path>
 redircmp <path>
 :: example path = <ou=phonix,dc=nuggetlab,dc=com>
 
-
+:: To see more information about users and computers like their SID and many others
+adsiedit 
 
 
 
