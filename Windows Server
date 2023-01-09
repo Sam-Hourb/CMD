@@ -4,3 +4,22 @@ shutdown /r
 
 :: To join a computer to domain:
 netdom join %ComputerName% /domain:<DomainName> /userd:<UserName> /passwordd:*
+
+:: To create a simple user account in users ou
+net user <username> <password> /add
+
+:: To create a simple computer account in computers ou
+net computer \\<computername> /add
+
+:: To change the dirctory where new users will be created
+redirusr <path>
+:: example path = <ou=phonix,dc=nuggetlab,dc=com
+
+:: To change the dirctory where new computer will be created
+redircmp <path>
+:: example path = <ou=phonix,dc=nuggetlab,dc=com>
+
+
+
+
+
