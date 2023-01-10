@@ -23,4 +23,8 @@ redircmp <path>
 adsiedit 
 
 
-
+:: To join a domain offline
+:: execute this command on domain controller
+djoin /provision / domain <nuggetlab.com> /machine <win8client01> /savefile <c:\sharefiles\blob.txt>
+:: execute this command on client computer
+djoin /requestODJ /loadfile <c:\blob\blob.txt> /windowspath %SystemRoot% /localos
