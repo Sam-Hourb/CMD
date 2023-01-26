@@ -1,0 +1,6 @@
+// to access basic firewall in windows
+firewall.cpl
+
+// to access advance firewall in windows
+wf.msc
+
