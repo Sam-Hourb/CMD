@@ -11,7 +11,8 @@ net stop <serviceName>
 sc <serviceName>`
 
 //to disable a service, so that it won't start again when system is rebooted
-sc config <serviceName> start=disabled
+sc config <serviceName> start= disabled
+Note: the space after equal sigh is neccessary
 
 
 //to start a service
