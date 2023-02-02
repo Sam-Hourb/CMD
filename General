@@ -8,7 +8,11 @@ wf.msc
 net stop <serviceName>
 
 //to stop a service
-sc <serviceName>
+sc <serviceName>`
+
+//to disable a service, so that it won't start again when system is rebooted
+sc config <serviceName> start=disabled
+
 
 //to start a service
 net start <serviceMame>
