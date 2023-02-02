@@ -4,6 +4,9 @@ firewall.cpl
 // to access advance firewall in windows
 wf.msc
 
+//to stop a process
+taskill <processName>
+
 //to stop a service
 net stop <serviceName>
 
