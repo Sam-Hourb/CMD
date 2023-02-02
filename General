@@ -5,7 +5,10 @@ firewall.cpl
 wf.msc
 
 //to stop a process
-taskill <processName>
+taskill <processName> or <processID>
+
+//to list process
+tasklist
 
 //to stop a service
 net stop <serviceName>
