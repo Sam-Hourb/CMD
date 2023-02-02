@@ -4,3 +4,9 @@ firewall.cpl
 // to access advance firewall in windows
 wf.msc
 
+//to stop a service
+net stop <serviceName>
+
+//to start a service
+net start <serviceMame>
+
