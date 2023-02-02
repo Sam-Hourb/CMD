@@ -7,6 +7,9 @@ wf.msc
 //to stop a service
 net stop <serviceName>
 
+//to stop a service
+sc <serviceName>
+
 //to start a service
 net start <serviceMame>
 
