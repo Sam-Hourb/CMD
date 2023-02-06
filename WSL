@@ -1,0 +1,2 @@
+// to update WSL (windows subsystem linux)
+wsl --update
