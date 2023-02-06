@@ -1,2 +1,5 @@
 // to update WSL (windows subsystem linux)
 wsl --update
+
+// to set WSL version 2 as default
+wsl --set-default-version 2
