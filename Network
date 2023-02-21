@@ -1,3 +1,5 @@
 // To see windows routing table
 route print
 
+// To add a new route using CMD
+route add -p <destination address> mask <subnet mask> <gateway address> if <interface ID>
