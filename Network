@@ -1,3 +1,9 @@
+//to see netbios cash
+nbtstat -c 
+
+// to clear netbios cash
+nbtstat -R
+
 // To see windows routing table
 route print
 
