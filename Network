@@ -1,3 +1,6 @@
+//to register client computer name in WINS server in case auto didn't work
+nbstat -RR
+
 //to renew ip configuration 
 ipconfig /renew
 
