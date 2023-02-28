@@ -1,3 +1,7 @@
+// to access host file
+%systemroot%\system32\drivers\etc
+
+
 // to access basic firewall in windows
 firewall.cpl
 
