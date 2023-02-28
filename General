@@ -1,3 +1,9 @@
+// to open host file using cmd command
+start notepad "C:\Windows\System32\drivers\etc\hosts"
+or 
+start notepad++ "C:\Windows\System32\drivers\etc\hosts"
+
+
 // to access host file
 %systemroot%\system32\drivers\etc
 
