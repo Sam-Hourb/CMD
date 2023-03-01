@@ -1,13 +1,16 @@
+// to clear dns cache 
+ipconfig /flushdns
+
 //to register client computer name in WINS server in case auto didn't work
 nbstat -RR
 
 //to renew ip configuration 
 ipconfig /renew
 
-//to see netbios cash
+//to see netbios cache
 nbtstat -c 
 
-// to clear netbios cash
+// to clear netbios cache
 nbtstat -R
 
 // To see windows routing table
