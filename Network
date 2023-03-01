@@ -1,3 +1,6 @@
+// to see content of dns cache
+ipconfig /displaydns
+
 // to clear dns cache 
 ipconfig /flushdns
 
