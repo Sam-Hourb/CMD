@@ -1,4 +1,7 @@
-//to create a network mapped drive
+// to delete a mapped network drive
+net use <z>: /del
+
+//to create a mapped network drive
 net use <z>: \\<servername>\<sharedfolder>
 
 // to see content of dns cache
