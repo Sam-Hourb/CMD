@@ -1,3 +1,6 @@
+//to create a network mapped drive
+net use <z>: \\<servername>\<sharedfolder>
+
 // to see content of dns cache
 ipconfig /displaydns
 
