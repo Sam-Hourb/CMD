@@ -37,3 +37,6 @@ Note: the space after equal sigh is neccessary
 //to start a service
 net start <serviceMame>
 
+// to convert FAT32 to ntfs
+convert <driveletter>: /fs:ntfs 
+
