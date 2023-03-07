@@ -1,5 +1,7 @@
 // to manage file system in cmd
 fsutil
+or
+diskpart
 
 // to check disks
 chkdsk <driveletter>: /F  //you can use /F for fixing errors on non system disks. 
