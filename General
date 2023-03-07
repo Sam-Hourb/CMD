@@ -1,3 +1,6 @@
+// to check disks
+chkdsk <driveletter>: /F  //you can use /F for fixing errors on non system disks. 
+
 // to open host file using cmd command
 start notepad "C:\Windows\System32\drivers\etc\hosts"
 or 
