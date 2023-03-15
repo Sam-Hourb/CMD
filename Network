@@ -1,3 +1,15 @@
+// to make your laptop as an internet hotspot 
+netsh wlan show drivers  // to see if your laptop supports hosted network. 
+//if " Hosted network supported " is " yes " you can continue with next steps.
+netsh wlan set hostednetwork mode=allow ssid=<any name> key=<any key> <press enter>
+netsh wlan start hostednetwork
+//type ncpa.cpl in run
+//right click on internet connection (either Wi-Fi or wired lan)
+//click on sharing tab
+//enable "Allow other network users to connect through this computer's internet connection"
+//from "Home networking connection" choose the network connection that is connected to home (internal) network. 
+
+
 // to delete a mapped network drive
 net use <z>: /del
 
