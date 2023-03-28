@@ -1,0 +1,6 @@
+// to enable remote desktop in server core
+cscript scregedit.wsf /AR /v   // to see currect state of remote desktop if " 1 " remote desktop is disabled if " 0 " remote desktop enabled
+cscript scregedit.wsf /AR 0     // to enable remote desktop 
+
+
+
