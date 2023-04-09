@@ -1,3 +1,12 @@
+:: to create a user account
+dsadd user cn=<username>,ou=<OU name>,dc=<domain name>,dc=<com or other> -upn <username>@<domainname>.<com or other>
+-display <display name> -pwd <password> -mustchpwd <yes or no> -hmdir \\<server computer name>\<path to the shared folder>\%username%
+-hmdrv <drive>: -profile \\<server computer name>\<path to the shared home directory>\%username% -memberof cn=<group name>, ou=<OU name>, dc=<domain name>, dc=<com or other>
+::example:
+dsadd user cn=<sam>,ou=myou,dc=mydomain,dc=com -upn sam@mydomain.com
+-display sam -pwd <password> -mustchpwd yes -hmdir \\myPC\home\%username%
+-hmdrv E: -profile \\myPC\profiles\%username% -memberof cn=users, ou=myou, dc=mydomain, dc=com
+
 :: To rename a computer:
 netdom renamecomputer %ComputerName% /NewName:<NewComputerName>
 shutdown /r
